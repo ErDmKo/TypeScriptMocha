@@ -1,0 +1,23 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "outDir": "./dist",
+        "noEmit": false,
+        "allowJs": true,
+        "strict":  true,
+        "noImplicitAny": true,
+        "lib": [
+            "ES6",
+        ],
+        "baseUrl": "./",
+        "paths": {
+            "@src/*": ["./src/*"],
+            "@root/*": ["./*"],
+        }
+
+    },
+    "exclude": [
+        "node_modules",
+        "dist"
+    ]
+}
